@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLiquidFilter("relative_url", function(url) {
     // Prepend the site's base URL to the given URL
-    return "https://alejandro-ortiz.github.io/testing-website" + url;
+    return "https://alejandro-ortiz.github.io/Testing-website" + url;
   });
   // Set custom site data
   eleventyConfig.addPassthroughCopy("images");
