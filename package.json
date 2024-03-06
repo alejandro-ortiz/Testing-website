@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass assets/css/main.scss docs/assets/css/main.css",
+    "build": "npm run build:css && eleventy"
+  },
+  "license": "ISC",
   "dependencies": {
-    "sass": "^1.71.1"
+    "sass": "^1.71.0"
   }
 }
