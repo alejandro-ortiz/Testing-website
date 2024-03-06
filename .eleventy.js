@@ -6,10 +6,12 @@ module.exports = function(eleventyConfig) {
   // Set custom site data
   eleventyConfig.addPassthroughCopy("images");
 
-  // return {
-  //   dir: {
-  //     input: ".",
-  //     output: "_site",
+  return {
+    dir: {
+      input: ".",
+      output: "_docs"
+    }
+  }
   //     includes: "_includes",
   //     data: "_data"
   //   },
