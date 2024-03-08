@@ -888,7 +888,7 @@ blockquote p {
 }
 
 footer {
-  background: no-repeat bottom/100% url("http://localhost:8080/images/scout_footer.png");
+  background: no-repeat bottom/100% url("https://stoneoakscouts.org/images/scout_footer.png");
   bottom: 0;
   height: 22.5rem;
   position: absolute;

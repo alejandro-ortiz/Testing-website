@@ -1,7 +1,7 @@
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLiquidFilter("relative_url", function(url) {
     // Prepend the site's base URL to the given URL
-    return "http://localhost:8080" + url;
+    return "https://stoneoakscouts.org" + url;
   });
   // Set custom site data
   eleventyConfig.addPassthroughCopy("images");
